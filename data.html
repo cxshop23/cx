@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品上架網頁</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #EDEDEB;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .product {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        @media screen and (min-width: 480px) {
+            .product {
+                width: 48%;
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            .product {
+                width: 48%;
+            }
+        }
+
+        @media screen and (min-width: 992px) {
+            .product {
+                width: 30%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>商品列表</h1>
+
+    <div class="product-container">
+        <div class="product">
+            <img src="紫.png" alt="商品1">
+            <h3>好歡螺 紫色 </h3>
+            <p>$130 320g</p>
+        </div>
+
+        <div class="product">
+            <img src="紫.png" alt="商品2">
+            <h3>好歡螺 紫色 </h3>
+            <p>$130 320g</p>
+        </div>
+
+        <div class="product">
+            <img src="紫.png" alt="商品3">
+            <h3>好歡螺 紫色 </h3>
+            <p>$130 320g</p>
+        </div>
+
+        <div class="product">
+            <img src="紫.png" alt="商品4">
+            <h3>好歡螺 紫色 </h3>
+            <p>$130 320g</p>
+        </div>
+
+        <!-- 添加更多商品 -->
+
+    </div>
+</body>
+</html>
